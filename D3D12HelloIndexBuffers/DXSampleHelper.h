@@ -11,6 +11,8 @@
 
 #pragma once
 
+#include <stdexcept>
+
 inline std::string HrToString(HRESULT hr)
 {
     char s_str[64] = {};
